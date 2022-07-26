@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BasicConcepts.Common;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -26,6 +27,14 @@ namespace BasicConcepts
         {
             InitializeComponent();
             title = "Testing git practice";
+        }
+
+        private void oopsConcept_Click(object sender, RoutedEventArgs e)
+        {
+            Func<int, int> square = x => x * x;
+            MessageBox.Show(square(5).ToString());
+            ClassA objA=new ClassA();
+            MessageBox.Show(objA.X.ToString());
         }
     }
 }
