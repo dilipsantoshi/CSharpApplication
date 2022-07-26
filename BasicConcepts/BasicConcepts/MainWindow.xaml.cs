@@ -28,6 +28,8 @@ namespace BasicConcepts
 
         private void oopsConcept_Click(object sender, RoutedEventArgs e)
         {
+            Func<int, int> square = x => x * x;
+            MessageBox.Show(square(5).ToString());
             ClassA objA=new ClassA();
             MessageBox.Show(objA.X.ToString());
         }
