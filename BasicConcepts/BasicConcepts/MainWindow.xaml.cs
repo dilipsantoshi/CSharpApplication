@@ -32,6 +32,7 @@ namespace BasicConcepts
             MessageBox.Show(square(5).ToString());
             ClassA objA=new ClassA();
             MessageBox.Show(objA.X.ToString());
+            MessageBox.Show("Just testing Merge conflict");
         }
     }
 }
