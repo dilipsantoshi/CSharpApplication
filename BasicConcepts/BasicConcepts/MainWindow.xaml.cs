@@ -20,9 +20,12 @@ namespace BasicConcepts
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        private string title = string.Empty;
         public MainWindow()
         {
             InitializeComponent();
+            title = "Testing git practice";
         }
     }
 }
