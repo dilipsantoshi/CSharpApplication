@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BasicConcepts.Common;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,12 @@ namespace BasicConcepts
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void oopsConcept_Click(object sender, RoutedEventArgs e)
+        {
+            ClassA objA=new ClassA();
+            MessageBox.Show(objA.X.ToString());
         }
     }
 }
